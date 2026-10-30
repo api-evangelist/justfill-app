@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-justfill-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://justfill.app/
+JustFill is an AI‑powered web application that fills out PDF forms, including scanned and non‑fillable documents. By detecting form fields visually, it lets users type data, upload CSV/Excel rows, and generate filled PDFs automatically. The service offers free and paid plans, supports voice dictation, batch processing, and ensures data security with encryption and limited retention. It operates entirely in the browser without requiring Adobe.
+
+**Areas:** Company · AI · PDF · FormFilling · SaaS
+
+## justfill-app on APIs.io
+
+Everything profiled for justfill-app is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/justfill-app/](https://apis.io/providers/justfill-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [JustFill API](https://apis.io/apis/justfill-app/justfill-api/) — JustFill PDF Automation API (MCP) for programmatic PDF form filling.
+- [justfill-app API](https://apis.io/apis/justfill-app/justfill-app-api/) — justfill-app API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [GetApiAuthDataExportArchiveResponse](https://apis.io/schemas/justfill-app/justfill-app-get-api-auth-data-export-archive-response/)
+- [GetApiAuthDataExportResponse](https://apis.io/schemas/justfill-app/justfill-app-get-api-auth-data-export-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Justfill App Context](https://apis.io/jsonld/justfill-app/justfill-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [justfill-app API Rules](https://apis.io/rules/justfill-app/justfill-app-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Justfill App Authentication](https://apis.io/security/justfill-app/justfill-app-authentication/)
+- [Justfill App Domain Security](https://apis.io/security/justfill-app/justfill-app-domain-security/)
+- [Justfill App Vulnerability Disclosure](https://apis.io/security/justfill-app/justfill-app-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Justfill App Scopes](https://apis.io/scopes/justfill-app/justfill-app-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Justfill App Plans Pricing](https://apis.io/plans/justfill-app/justfill-app-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Justfill App Rate Limits](https://apis.io/rate-limits/justfill-app/justfill-app-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://justfill.app/)
+- [Documentation](https://justfill.app/guides/canva-fillable-pdf)
+- [Getting started](https://justfill.app/solutions/i-9-bulk-onboarding)
+- [Pricing](https://justfill.app/pricing)
+- [Security](https://justfill.app/terms)
+- [Terms of service](https://justfill.app/terms)
+- [Privacy policy](https://justfill.app/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.0** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 43.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 60.0 |
+
+**Agent readiness 38.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/justfill-app/](https://apis.io/providers/justfill-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for justfill-app: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/justfill-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
